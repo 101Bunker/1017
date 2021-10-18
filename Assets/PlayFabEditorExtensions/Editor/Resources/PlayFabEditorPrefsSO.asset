@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d0199c11aa6f514784c5c69cd8378d8, type: 3}
+  m_Name: PlayFabEditorPrefsSO
+  m_EditorClassIdentifier: 
+  DevAccountEmail: disneypark93@gmail.com
+  DevAccountToken: m6etyozt4mted8tekpicpdjqi6pr9ubbdy5ty9wj7eeeu36sjj6midsost8i9fzs6zttrw8knegohm9iwn66c1m1hnehz1gu18j6e8nwnzz1teijmpo51a5fty5jch8qjjwdbw4qbab8jmz39tb3t4j9x54zzscqjns154djybng3zaue55i17qitu6wpowiz7m7rwoy
+  SelectedStudio: Disneypark Studio
+  SdkPath: Assets/PlayFabSDK
+  EdExPath: 
+  LocalCloudScriptPath: 
+  PanelIsShown: 0
+  curMainMenuIdx: 1
+  curSubMenuIdx: 2
