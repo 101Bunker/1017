@@ -4,58 +4,17 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
-{
-    public GameObject togglesQuest1;
-    List<GameObject> toggleList = new List<GameObject>();
-    [SerializeField]
-    public List<Toggle> toggle = new List<Toggle>();
-
-    int count = 0;
-
+{  
     Animator uiAnim;
 
     public GameObject clearUI_Quest1;
-
+    public GameObject inventory_0;
+    public GameObject userName;
     void Awake()
-    {
-        for (int i = 0; i < togglesQuest1.transform.childCount; i++)
-        {
-            toggle.Add(togglesQuest1.transform.GetChild(i).GetComponent<Toggle>());
-        }
+    {        
         uiAnim = GetComponent<Animator>();
-
-    }
-
-    public void GotOne()
-    {
-        if (count < toggle.Count)
-        {
-            toggle[count].interactable = false;
-            //toggleList[count].GetComponent<Toggle>().interactable = true;
-            toggle[count].interactable = true;
-            count += 1;
-
-            //Äù½ºÆ® ´Ù Ã¤¿ì¸é ÄíÆù UI ³ª¿È
-            if (count == toggle.Count)
-            {
-                clearUI_Quest1.SetActive(false);
-                clearUI_Quest1.SetActive(true);
-            }
-        }
-    }
-    //public void GotOne(List<Toggle> toogleList)
-    //{
-    //    if (count < toogleList.Count)
-    //    {
-    //        //toggleList[count].GetComponent<Toggle>().interactable = true;
-    //        toogleList[count].interactable = true;
-    //        count += 1;
-    //        if(count== toogleList.Count)
-    //        {
-
-    //        }
-    //    }
-    //}
+    }  
+  
 
     #region Button Functions
     bool clickedQuest;
