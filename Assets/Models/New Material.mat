@@ -24,7 +24,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: d9bbaeafe43ea934785402593ff852bc, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ClipMap:
@@ -44,7 +44,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailNormalMap:
-        m_Texture: {fileID: 2800000, guid: d9bbaeafe43ea934785402593ff852bc, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DissolveTexture:
@@ -60,7 +60,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 2747858f02098aa489cdeebafaeb85e5, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Matcap:
@@ -100,7 +100,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecularMap:
-        m_Texture: {fileID: 2800000, guid: 397200bcb21072040b2406e424a35bdb, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ThicknessMap:
@@ -114,17 +114,17 @@ Material:
     - _ALUVWidth: 128
     - _AdvMode: 0
     - _AlphaToMask: 0
-    - _AnisotropicReflection: -0.69
-    - _AnisotropicSpecular: -0.68
+    - _AnisotropicReflection: -0.55
+    - _AnisotropicSpecular: -0.72
     - _BlendMode: 0
-    - _BumpScale: 1
+    - _BumpScale: 0.46
     - _ClearCoat: 1
-    - _ClearcoatSmoothness: 0.883
-    - _ClearcoatStrength: 0.142
+    - _ClearcoatSmoothness: 0.826
+    - _ClearcoatStrength: 0.172
     - _ClipIndex: 0
     - _Culling: 2
     - _Cutoff: 0.5
-    - _DetailNormalMapScale: 1
+    - _DetailNormalMapScale: -1.14
     - _DissolveBlendPower: 1
     - _DissolveCoordinates: 0
     - _DissolveLayer1Scale: 1
@@ -139,7 +139,7 @@ Material:
     - _FadeDither: 0
     - _FadeDitherDistance: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.632
+    - _Glossiness: 0.877
     - _GlossyReflections: 1
     - _HalftoneDotAmount: 5
     - _HalftoneDotSize: 0.5
@@ -149,10 +149,10 @@ Material:
     - _Hue: 0
     - _IOR: 0
     - _MatcapTintToDiffuse: 0
-    - _Metallic: 0.226
+    - _Metallic: 0.543
     - _Mode: 0
     - _NormalMapMode: 0
-    - _OcclusionIntensity: 0.866
+    - _OcclusionIntensity: 0.782
     - _OcclusionMode: 0
     - _OcclusionStrength: 1
     - _OutlineAlbedoTint: 0
@@ -181,10 +181,10 @@ Material:
     - _ShadowRimRange: 0.397
     - _ShadowRimSharpness: 0.114
     - _ShadowRimThreshold: 0.833
-    - _ShadowSharpness: 0.605
+    - _ShadowSharpness: 0.223
     - _SmoothnessTextureChannel: 0
-    - _SpecularAlbedoTint: 0.21
-    - _SpecularArea: 0.176
+    - _SpecularAlbedoTint: 0.26
+    - _SpecularArea: 0.108
     - _SpecularHighlights: 1
     - _SpecularIntensity: 0
     - _SpecularSharpness: 0
@@ -208,7 +208,7 @@ Material:
     - _UVSetSpecular: 0
     - _UVSetThickness: 0
     - _UseClipsForDissolve: 0
-    - _Value: 1
+    - _Value: 0.6
     - _VertexColorAlbedo: 0
     - _WireWidth: 0
     - _ZWrite: 1
