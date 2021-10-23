@@ -25301,7 +25301,7 @@ PrefabInstance:
     - target: {fileID: 7068059249072869786, guid: 9486b87e123b44ce5875be626132b942,
         type: 3}
       propertyPath: vpsPath
-      value: C:/Users/notebook12/Desktop/GitHub/101Bunker1017/Assets/../../VPSData/VPSMap\coex_indoor_b1
+      value: C:/Users/note8/Documents/GitHub/1017/Assets/../../VPSData/VPSMap\coex_outdoor
       objectReference: {fileID: 0}
     - target: {fileID: 7068059249072869786, guid: 9486b87e123b44ce5875be626132b942,
         type: 3}
@@ -25321,12 +25321,12 @@ PrefabInstance:
     - target: {fileID: 7068059249072869786, guid: 9486b87e123b44ce5875be626132b942,
         type: 3}
       propertyPath: vpsServerName
-      value: coex_indoor_b1
+      value: coex_outdoor
       objectReference: {fileID: 0}
     - target: {fileID: 7068059249072869786, guid: 9486b87e123b44ce5875be626132b942,
         type: 3}
       propertyPath: vpsSimulatePath
-      value: C:/Users/notebook12/Desktop/GitHub/101Bunker1017/Assets/../../VPSData/VPSSimulationData/coex_indoor_b1\coex_indoor_starfield_sim_port_00001_210608
+      value: C:/Users/note8/Documents/GitHub/1017/Assets/../../VPSData/VPSSimulationData/coex_outdoor\macdonald_1
       objectReference: {fileID: 0}
     - target: {fileID: 7068059249072869786, guid: 9486b87e123b44ce5875be626132b942,
         type: 3}
