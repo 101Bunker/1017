@@ -46,6 +46,7 @@ public class UI_CouponPopUp : MonoBehaviour
         if (!isActive && parentObj.gameObject.activeInHierarchy)
         {
             questPopUp.SetActive(true);
+            //questPopUp.transform.GetChild(0).GetComponent<Image>().sprite=
             isActive = !isActive;
 
         }
