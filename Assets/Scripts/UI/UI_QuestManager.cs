@@ -18,18 +18,13 @@ public class UI_QuestManager : MonoBehaviour
 
     public List<Quest> questList = new List<Quest>();
 
-    #region Charactors
+   public UIManager uiManager;
 
-
-   
-    //public GameObject parentObj;
-    //[SerializeField] List<GameObject> couponCharactors = new List<GameObject>();
-
-
-    UIManager uiManager;
-    void Awake()
+#region 캐릭터 먹는 것 관련
+   void Awake()
     {
-        questPopUp.SetActive(false);
+        //uiManager.enabled = true;
+        //questPopUp.SetActive(false);
 
         //퀘스트 별로 쿠폰 캐릭터들 리스트화
         for (int questListCount = 0; questListCount < questList.Count; questListCount++)
@@ -47,7 +42,7 @@ public class UI_QuestManager : MonoBehaviour
             }
         }
 
-        uiManager = GetComponent<UIManager>();
+       uiManager = GetComponent<UIManager>();
     }
     public bool locationObjIsActive;
 
@@ -58,7 +53,8 @@ public class UI_QuestManager : MonoBehaviour
         //사용자가 오브젝트가 있는 위치로 가서(오브젝트들이 active 상태이면) 퀘스트 팝업창 열기
         if (!locationObjIsActive && questList[0].locationObj.gameObject.activeInHierarchy)
         {
-            questPopUp.SetActive(true);
+            uiManager.uiAnim.Play("PopUpQuest_open");
+            //questPopUp.SetActive(true);
             //퀘스트마다 이미지랑 텍스트 바꿔줌.
             questPopUp.transform.GetChild(1).GetComponent<Text>().text = questList[0].title;
             questPopUp.transform.GetChild(2).GetComponent<Image>().sprite = questList[0].image;
@@ -101,7 +97,6 @@ public class UI_QuestManager : MonoBehaviour
             }
         }
     }
-
     #endregion
     public void OnClickAcceptQuest(int number)
     {

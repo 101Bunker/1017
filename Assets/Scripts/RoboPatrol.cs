@@ -23,7 +23,7 @@ public class RoboPatrol : MonoBehaviour
     {
         if (targets.Length == 0) return;
 
-        nav.destination = targets[point].transform.position;
+        nav.destination = targets[point].gameObject.transform.position;
         point = (point + 1) % targets.Length;
     }
 }
