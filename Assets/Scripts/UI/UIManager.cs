@@ -4,15 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
-{  
-   public Animator uiAnim;
-   // public UI_QuestManager uiQM;
-
-    public GameObject inventory_0;
+{
+    [HideInInspector]
+    public Animator uiAnim;
+    
     public GameObject userName;
     void Awake()
     {
-    //    uiQM.enabled = true;
         uiAnim = GetComponent<Animator>();
     }  
   
